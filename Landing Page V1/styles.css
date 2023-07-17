@@ -82,7 +82,9 @@ h1 {
 
 .boxes {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
 
 }
 
@@ -91,4 +93,13 @@ h1 {
     height: 150px;
     border: 3px solid #3B82F6;
     border-radius: 15px;
+}
+
+.section-3-content h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
