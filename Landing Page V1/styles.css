@@ -54,7 +54,6 @@ button {
     height: 35px;
     font-size: 16px;
     border: solid white;
-    text-align: center;
 }
 
 .hero-content-left p,
@@ -150,4 +149,20 @@ h1 {
 .cta {
     color: white;
     display: flex;
+    justify-content: space-around;
+
+}
+
+.cta-button {
+    color: white;
+    display: flex;
+    border: solid white;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 30px 70px 30px 70px;
+    color: white;
+    text-align: center;
 }
